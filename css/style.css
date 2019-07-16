@@ -1,0 +1,170 @@
+#block-body{
+    width: 1035px;
+    height:  auto;
+    margin: 0 auto;
+}
+
+#block-header{
+    width: 1035px;
+}
+
+#header-top-block{
+    width: 1035px;
+    height: 27px;
+}
+
+#header-top-menu{
+    margin-left: -40px;
+}
+
+#header-top-menu li{
+    list-style-type: none;
+    font: 15px sans-serif;
+    float:  left;
+    margin-top: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #E3E3E3;
+}
+
+#header-top-menu a{
+    list-style-type: none;
+    color: #00678c;
+    text-decoration: none;
+}
+
+#header-top-menu a:hover{
+    color: #EF662b;
+    border-bottom: 1px dashed #EF662b;
+}
+
+#block-content{
+    width: auto;
+    height: auto;
+}
+
+#block-good-grid
+{
+    margin-left: -35px;
+}
+
+.block-good-grid-li{
+    width: 380px;
+    float: left;
+    height: 230px;
+    margin-left:  10px;
+    margin-top: 15px;
+}
+
+.style-title-grid{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.style-title-grid a{
+    font: bold 15px sans-serif;
+    color: #0a83ab;
+    text-decoration: underline;
+}
+
+.style-title-grid a:hover{
+    color: #e26666;
+}
+
+.block-images-grid{
+    width: auto;
+    height: 230px;
+    float: left;
+    margin-right: 15px;
+}
+
+.style-price-grid{
+    font: 16px sans-serif;
+    margin-top: 7px;
+}
+
+.style-price-grid strong{
+    font: 23px sans-serif;
+    color: #6b6d73;
+}
+
+.add-cart-style-grid{
+    visibility: hidden;
+}
+
+.mini-features{
+    font: 14px/18px sans-serif;
+    margin-top: 10px;
+}
+
+.mini-features p{
+    margin: 0;
+    padding: 0;
+}
+
+.h2_title{
+    font: 25px sans-serif;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 3px;
+}
+
+#block_form_add{
+    height: auto;
+}
+
+#form_add{
+    margin-top: 30px;
+}
+
+#form_add li{
+    margin-top: 10px;
+}
+
+.input_add{
+    height: 30px;
+    width:  320px;
+    font: 17px sans-serif;
+    margin-left: 200px;
+    padding-left: 5px;
+    color: black;
+    border-left: 1px solid #ababab;
+    border-top: 1px solid #ababab;
+    border-right: 1px solid #ababab;
+    border-bottom: 1px solid #ababab;
+}
+
+.label_add{
+    position: absolute;
+    font: 15px sans-serif;
+    margin-top: 7px;
+}
+
+.star{
+    font: 16px sans-serif;
+    color: #e35903;
+    position: absolute;
+    margin-left: 188px;
+}
+
+#form_submit{
+    background: url(/images/grd_reg_button.png);
+    border: 1px solid #E4E4E4;
+    font: bold 13px sans-serif;
+    border-radius:5px ;
+   -webkit-border-radius:5px ;
+   -moz-border-radius:5px ;
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 33px;
+    cursor: pointer;
+    margin-left: -232px;
+}
+
+#form_submit:active{
+    background: url(/images/grd_reg_button_vert.png);
+}
+
+.error{
+    font: italic 14px sans-serif;
+    color: #cc0063;
+}
